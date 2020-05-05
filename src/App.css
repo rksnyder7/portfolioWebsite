@@ -1,0 +1,46 @@
+        span.own1{
+            background:#F8F8F8;
+            /*border: 5px solid #DFDFDF;*/
+            color: #717171;
+            font-size: 13px;
+            height: 0px;
+        	width:310px;
+                overflow:hidden;
+                 -webkit-transition: all 0.2s linear;
+                 -moz-transition: all 0.2s linear;
+                 -o-transition: all 0.2s linear;
+                transition: all 0.2s linear;
+            letter-spacing: 1px;
+            line-height: 20px;
+            position:absolute;
+            text-align: center;
+            text-transform: uppercase;
+            top: auto;
+            margin-bottom:300px;
+            /*left:300px;*/
+            /*right: 10px;*/
+            /*display:none;*/
+            padding:0 0px; 
+        	/*float: right;*/
+        }
+        
+        div.own{
+            margin:0px;
+            /*float:left;*/
+            position:relative;
+            cursor:pointer;
+        }
+        
+        div.own:hover span{
+            display:block;
+                margin-bottom:221px;
+                height:69px;
+                padding-bottom: 10px;
+            /*float: right;*/
+        }
+
+ /*margin-top:300px;*/
+
+              /*          margin-top:221px;
+                height:69px;
+                padding-top: 10px;*/
