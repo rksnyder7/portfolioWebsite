@@ -1,10 +1,10 @@
         span.own1{
-            background:#F8F8F8;
+            background: black;
             /*border: 5px solid #DFDFDF;*/
-            color: #717171;
+            color: white;
             font-size: 13px;
             height: 0px;
-        	width:310px;
+        	width: 5rem;
                 overflow:hidden;
                  -webkit-transition: all 0.2s linear;
                  -moz-transition: all 0.2s linear;
@@ -16,7 +16,7 @@
             text-align: center;
             text-transform: uppercase;
             top: auto;
-            margin-bottom:300px;
+            margin-bottom:100px;
             /*left:300px;*/
             /*right: 10px;*/
             /*display:none;*/
@@ -33,9 +33,9 @@
         
         div.own:hover span{
             display:block;
-                margin-bottom:221px;
-                height:69px;
-                padding-bottom: 10px;
+                margin-bottom:5rem;
+                height:2rem;
+                padding-bottom: 1rem;
             /*float: right;*/
         }
 

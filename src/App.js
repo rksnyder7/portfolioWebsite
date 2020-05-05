@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'tachyons';
+
 // import CardGroup from 'react-bootstrap/CardGroup';
 // import Card from 'react-bootstrap/Card';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,42 +12,37 @@ class App extends Component {
 
     return (
       <div>
-      <header className="tc pv4 pv3-ns bg-light-gray">
-        <img  src={require('./Utils/LogoMakr_91hyAI.png')} class=" " />
-        
+      <header className="fr pv4 pv3-ns w-100 mb4">
+        <img  src={require('./Utils/LogoMakr_91hyAI.png')} class="pl3 fl w-12" />
       </header>
-      <main className="cf pa2">
-        <div className="db fl w-100 w-50-ns ph2 own">
-          <span className="db right-2 own1 fr absolute-ns">View Project</span>
-          <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="pv2 db no-underline black">
-                  <header class="bb b--black-70 pv4">
-                    <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Fantasy Football Draft Guide</h3>
-                    <h4 class="f4 fw4 i lh-title mt0">Compares player rankings across sites and highlights undervalued players</h4>
-                  </header>
-            <img className="db w-100" src={require('./Utils/draftGuide.PNG')}/>
-          </a>
+      <div class="mw9 center ph3-ns pt4">
+        <div class="cf ph2-ns">
+          <div class="fl w-100 w-50-ns own">
+            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
+            <span className="db right-2 own1 fr absolute-ns">View Project</span>
+            <div class="outline bg-green pv5 vh-50 tc dim">
+                <h2 className="pv3">Fantasy Football Draft Guide</h2>
+                <p className="pv4">Compares player rankings across sites and highlights undervalued players</p>
+            </div>
+            </a>
+          </div>
+          <div class="fl w-100 w-50-ns own">
+            <span className="db right-2 own1 fr absolute-ns">View Project</span>
+            <div class="outline bg-white pv4 vh-50">asdfasf</div>
+          </div>
         </div>
-        <div className="fl own w-50 w-25-ns ph2">
-          <span className="db right-2 own1 fr absolute-ns">SOME TEXT</span>
-          <a href="https://rob-snyder7.github.io/travelPlanner/" target="_blank" className="no-underline pv2 db black">
-                  <header class="bb b--black-70 pv4">
-                    <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Travel Planner</h3>
-                    <h4 class="f4 fw4 i lh-title mt0">Explore the world and plan your next getaway</h4>
-                  </header>
-            <img className="db w-100" src={require('./Utils/travelPlanner.PNG')}/>
-          </a>
+        <div class="cf ph2-ns">
+          <div class="fl w-100 w-50-ns own">
+            <span className="db right-2 own1 fr absolute-ns">View Project</span>
+            <div class="outline bg-white pv4 vh-50">asdfasd</div>
+          </div>
+          <div class="fl w-100 w-50-ns own">
+            <span className="db right-2 own1 fr absolute-ns">View Project</span>
+            <div class="outline bg-white pv4 vh-50">asdfasf</div>
+          </div>
         </div>
-        <div className="fl w-50 w-25-ns ph2">
-          <a href="https://rob-snyder7.github.io/Preksway/" target="_blank" className="no-underline pv2 grow db black">
-                  <header class="bb b--black-70 pv4">
-                    <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Preksway</h3>
-                    <h4 class="f4 fw4 i lh-title mt0">Website for Cambodian village Eco-Tourism destination</h4>
-                  </header>
-            <img className="db w-100" src={require('./Utils/Preksway.PNG')}/>
-          </a>
-        </div>
-      </main>
-<footer className="pv4 ph3 ph5-ns tr">
+      </div>
+<footer className="pv4 ph3 ph5-ns tr mt4">
   <a className="link hover-silver near-black dib h2 w2 mr3" href="https://www.linkedin.com/in/robert-snyder-6649b153/" target="_blank" title="LinkedIn">
     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
   </a>
@@ -64,6 +60,37 @@ class App extends Component {
 
 export default App;
        
+      // <main className="cf pa2">
+      //   <div className="db fl w-100 w-50-ns ph2 own">
+      //     <span className="db right-2 own1 fr absolute-ns">View Project</span>
+      //     <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="pv2 db no-underline black">
+      //             <header class="bb b--black-70 pv4">
+      //               <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Fantasy Football Draft Guide</h3>
+      //               <h4 class="f4 fw4 i lh-title mt0">Compares player rankings across sites and highlights undervalued players</h4>
+      //             </header>
+      //       <img className="db w-100" src={require('./Utils/draftGuide.PNG')}/>
+      //     </a>
+      //   </div>
+      //   <div className="fl own w-50 w-25-ns ph2">
+      //     <span className="db right-2 own1 fr absolute-ns">SOME TEXT</span>
+      //     <a href="https://rob-snyder7.github.io/travelPlanner/" target="_blank" className="no-underline pv2 db black">
+      //             <header class="bb b--black-70 pv4">
+      //               <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Travel Planner</h3>
+      //               <h4 class="f4 fw4 i lh-title mt0">Explore the world and plan your next getaway</h4>
+      //             </header>
+      //       <img className="db w-100" src={require('./Utils/travelPlanner.PNG')}/>
+      //     </a>
+      //   </div>
+      //   <div className="fl w-50 w-25-ns ph2">
+      //     <a href="https://rob-snyder7.github.io/Preksway/" target="_blank" className="hover-red no-underline pv2 grow db black">
+      //             <header class="bb b--black-70 pv4">
+      //               <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Preksway</h3>
+      //               <h4 class="f4 fw4 i lh-title mt0">Website for Cambodian village Eco-Tourism destination</h4>
+      //             </header>
+      //       <img className="db w-100" src={require('./Utils/Preksway.PNG')}/>
+      //     </a>
+      //   </div>
+      // </main>
 
        // style={{backgroundImage: 'url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC)'}}
 
