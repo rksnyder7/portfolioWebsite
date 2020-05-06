@@ -13,35 +13,56 @@ class App extends Component {
     return (
       <div>
       <header className="fr pv4 pv3-ns w-100 mb4">
-        <img  src={require('./Utils/LogoMakr_91hyAI.png')} class="pl3 fl w-12" />
+        <img  src={require('./Utils/LogoMakr_91hyAI.png')} class="pl3 fl w-10" />
       </header>
+
       <div class="mw9 center ph3-ns pt4">
         <div class="cf ph2-ns">
           <div class="fl w-100 w-50-ns own">
             <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
-            <div class="outline bg-green pv5 vh-50 tc dim">
-                <h2 className="pv3">Fantasy Football Draft Guide</h2>
-                <p className="pv4">Compares player rankings across sites and highlights undervalued players</p>
+            <div class="pv5 dim tc" style={{backgroundColor: "#FFE066"}}>
+                <h1 className="pv3">Fantasy Football Draft Guide</h1>
+                <p className="pv4"></p>
+                <p className="pv4 tc">Compares player rankings across sites and highlights undervalued players</p>
             </div>
             </a>
           </div>
-          <div class="fl w-100 w-50-ns own">
+          <div class="fl w-100 w-50-ns own h-100">
+            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
-            <div class="outline bg-white pv4 vh-50">asdfasf</div>
+            <div class="pv5 tc dim h-100" style={{backgroundColor: "#F25F5C"}}>
+                <h1 className="pv3 white">Travel Planner</h1>
+                <p className="pv4"></p>
+                <p className="pv4 white">Explore the world and plan your next getaway</p>
+            </div>
+            </a>
           </div>
         </div>
         <div class="cf ph2-ns">
           <div class="fl w-100 w-50-ns own">
+            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
-            <div class="outline bg-white pv4 vh-50">asdfasd</div>
+            <div class="pv5 tc dim" style={{backgroundColor: "#247BA0"}}>
+                <h1 className="pv3 white">Preksway</h1>
+                <p className="pv4"></p>
+                <p className="pv4 white">Website for Cambodian village Eco-Tourism destination</p>
+            </div>
+            </a>
           </div>
           <div class="fl w-100 w-50-ns own">
+            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
-            <div class="outline bg-white pv4 vh-50">asdfasf</div>
+            <div class="pv5 tc dim" style={{backgroundColor: "#70C1B3"}}>
+                <h1 className="pv3">Samsara</h1>
+                <p className="pv4"></p>
+                <p className="pv4">Moments from past adventures</p>
+            </div>
+            </a>
           </div>
         </div>
       </div>
+
 <footer className="pv4 ph3 ph5-ns tr mt4">
   <a className="link hover-silver near-black dib h2 w2 mr3" href="https://www.linkedin.com/in/robert-snyder-6649b153/" target="_blank" title="LinkedIn">
     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
@@ -54,6 +75,7 @@ class App extends Component {
   </a>
 </footer>
       </div>
+      
     );
   }
 }
