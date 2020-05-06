@@ -29,7 +29,7 @@ class App extends Component {
             </a>
           </div>
           <div class="fl w-100 w-50-ns own h-100">
-            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
+            <a href="https://rob-snyder7.github.io/travelPlanner/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
             <div class="pv5 tc dim h-100" style={{backgroundColor: "#F25F5C"}}>
                 <h1 className="pv3 white">Travel Planner</h1>
@@ -41,7 +41,7 @@ class App extends Component {
         </div>
         <div class="cf ph2-ns">
           <div class="fl w-100 w-50-ns own">
-            <a href="https://rob-snyder7.github.io/draftGuide/" target="_blank" className="no-underline black">
+            <a href="https://rob-snyder7.github.io/Preksway/" target="_blank" className="no-underline black">
             <span className="db right-2 own1 fr absolute-ns">View Project</span>
             <div class="pv5 tc dim" style={{backgroundColor: "#247BA0"}}>
                 <h1 className="pv3 white">Preksway</h1>
